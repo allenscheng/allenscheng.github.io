@@ -626,3 +626,25 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+ul#inLine li {
+  display: inline;
+}
+ul.toCenter {
+  display: flex;
+  justify-content: center;
+}
+.textCenter {
+  padding: 1em;
+  text-align: center;
+}
+hr {
+  border: 0;
+  width: 60%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
